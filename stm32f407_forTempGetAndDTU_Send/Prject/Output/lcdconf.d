@@ -1,0 +1,9 @@
+.\output\lcdconf.o: ..\EmWin\GUI_Config\LCDConf.c
+.\output\lcdconf.o: ..\EmWin\Include\GUI.h
+.\output\lcdconf.o: ..\EmWin\Include\GUI_ConfDefaults.h
+.\output\lcdconf.o: ..\EmWin\GUI_Config\GUIConf.h
+.\output\lcdconf.o: ..\EmWin\Include\GUI_Type.h
+.\output\lcdconf.o: ..\EmWin\Include\LCD.h
+.\output\lcdconf.o: ..\EmWin\Include\Global.h
+.\output\lcdconf.o: ..\EmWin\Include\GUI_Version.h
+.\output\lcdconf.o: ..\EmWin\Include\GUIDRV_Lin.h

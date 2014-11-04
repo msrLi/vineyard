@@ -1,0 +1,465 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\资料\stm32F407_Discover\STM32F407VGT6\【批量下载】STM32F4xx_StdPeriph_lib v1.0.2等\STM32F4\STM32F4Discovery\STM32F4给ArdaTech客户资料 V2\外设库及例程\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\MDK-ARM\Audio_playback_and_record.uvproj
+Project File Date:  10/28/2011
+
+<h2>Output:</h2>
+Build target 'MEDIA_USB_KEY'
+compiling audio_sample.c...
+..\src\audio_sample.c(22): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\audio_sample.c:   #include "stm32f4xx.h"
+..\src\audio_sample.c:                         ^
+..\src\audio_sample.c: ..\src\audio_sample.c: 0 warnings, 1 error
+compiling main.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\main.c: 0 warnings, 1 error
+compiling stm32f4xx_it.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\stm32f4xx_it.c: 0 warnings, 1 error
+compiling system_stm32f4xx.c...
+..\src\system_stm32f4xx.c(125): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\system_stm32f4xx.c:   #include "stm32f4xx.h"
+..\src\system_stm32f4xx.c:                         ^
+..\src\system_stm32f4xx.c: ..\src\system_stm32f4xx.c: 0 warnings, 1 error
+compiling usb_bsp.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usb_bsp.c: 0 warnings, 1 error
+compiling usbh_usr.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usbh_usr.c: 0 warnings, 1 error
+compiling waveplayer.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waveplayer.c: 0 warnings, 1 error
+compiling waverecorder.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waverecorder.c: 0 warnings, 1 error
+compiling stm32f4_discovery.c...
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h(32): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:    #include "stm32f4xx.h"
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:                          ^
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.c: 0 warnings, 1 error
+compiling stm32f4_discovery_lis302dl.c...
+stm32f4_discovery_lis302dl.c: Error:  #5: cannot open source input file "..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c": No such file or directory
+stm32f4_discovery_lis302dl.c: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c: 0 warnings, 1 error
+Target not created
+Clean started: Project: 'Audio_playback_and_record'
+   deleting intermediate output files for target 'MEDIA_intFALSH'
+   deleting intermediate output files for target 'MEDIA_USB_KEY'
+Build target 'MEDIA_USB_KEY'
+compiling audio_sample.c...
+..\src\audio_sample.c(22): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\audio_sample.c:   #include "stm32f4xx.h"
+..\src\audio_sample.c:                         ^
+..\src\audio_sample.c: ..\src\audio_sample.c: 0 warnings, 1 error
+compiling main.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\main.c: 0 warnings, 1 error
+compiling stm32f4xx_it.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\stm32f4xx_it.c: 0 warnings, 1 error
+compiling system_stm32f4xx.c...
+..\src\system_stm32f4xx.c(125): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\system_stm32f4xx.c:   #include "stm32f4xx.h"
+..\src\system_stm32f4xx.c:                         ^
+..\src\system_stm32f4xx.c: ..\src\system_stm32f4xx.c: 0 warnings, 1 error
+compiling usb_bsp.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usb_bsp.c: 0 warnings, 1 error
+compiling usbh_usr.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usbh_usr.c: 0 warnings, 1 error
+compiling waveplayer.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waveplayer.c: 0 warnings, 1 error
+compiling waverecorder.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waverecorder.c: 0 warnings, 1 error
+compiling stm32f4_discovery.c...
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h(32): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:    #include "stm32f4xx.h"
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:                          ^
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.c: 0 warnings, 1 error
+compiling stm32f4_discovery_lis302dl.c...
+stm32f4_discovery_lis302dl.c: Error:  #5: cannot open source input file "..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c": No such file or directory
+stm32f4_discovery_lis302dl.c: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c: 0 warnings, 1 error
+Target not created
+Build target 'MEDIA_USB_KEY'
+compiling audio_sample.c...
+..\src\audio_sample.c(22): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\audio_sample.c:   #include "stm32f4xx.h"
+..\src\audio_sample.c:                         ^
+..\src\audio_sample.c: ..\src\audio_sample.c: 0 warnings, 1 error
+compiling main.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\main.c: 0 warnings, 1 error
+compiling stm32f4xx_it.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\stm32f4xx_it.c: 0 warnings, 1 error
+compiling system_stm32f4xx.c...
+..\src\system_stm32f4xx.c(125): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\system_stm32f4xx.c:   #include "stm32f4xx.h"
+..\src\system_stm32f4xx.c:                         ^
+..\src\system_stm32f4xx.c: ..\src\system_stm32f4xx.c: 0 warnings, 1 error
+compiling usb_bsp.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usb_bsp.c: 0 warnings, 1 error
+compiling usbh_usr.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usbh_usr.c: 0 warnings, 1 error
+compiling waveplayer.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waveplayer.c: 0 warnings, 1 error
+compiling waverecorder.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waverecorder.c: 0 warnings, 1 error
+compiling stm32f4_discovery.c...
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h(32): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:    #include "stm32f4xx.h"
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:                          ^
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.c: 0 warnings, 1 error
+compiling stm32f4_discovery_lis302dl.c...
+stm32f4_discovery_lis302dl.c: Error:  #5: cannot open source input file "..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c": No such file or directory
+stm32f4_discovery_lis302dl.c: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c: 0 warnings, 1 error
+Target not created
+Build target 'MEDIA_USB_KEY'
+compiling audio_sample.c...
+..\src\audio_sample.c(22): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\audio_sample.c:   #include "stm32f4xx.h"
+..\src\audio_sample.c:                         ^
+..\src\audio_sample.c: ..\src\audio_sample.c: 0 warnings, 1 error
+compiling main.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\main.c: 0 warnings, 1 error
+compiling stm32f4xx_it.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\stm32f4xx_it.c: 0 warnings, 1 error
+compiling system_stm32f4xx.c...
+..\src\system_stm32f4xx.c(125): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\system_stm32f4xx.c:   #include "stm32f4xx.h"
+..\src\system_stm32f4xx.c:                         ^
+..\src\system_stm32f4xx.c: ..\src\system_stm32f4xx.c: 0 warnings, 1 error
+compiling usb_bsp.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usb_bsp.c: 0 warnings, 1 error
+compiling usbh_usr.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usbh_usr.c: 0 warnings, 1 error
+compiling waveplayer.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waveplayer.c: 0 warnings, 1 error
+compiling waverecorder.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waverecorder.c: 0 warnings, 1 error
+compiling stm32f4_discovery.c...
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h(32): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:    #include "stm32f4xx.h"
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:                          ^
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.c: 0 warnings, 1 error
+compiling stm32f4_discovery_lis302dl.c...
+stm32f4_discovery_lis302dl.c: Error:  #5: cannot open source input file "..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c": No such file or directory
+stm32f4_discovery_lis302dl.c: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c: 0 warnings, 1 error
+Target not created
+Build target 'MEDIA_USB_KEY'
+compiling audio_sample.c...
+..\src\audio_sample.c(22): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\audio_sample.c:   #include "stm32f4xx.h"
+..\src\audio_sample.c:                         ^
+..\src\audio_sample.c: ..\src\audio_sample.c: 0 warnings, 1 error
+compiling main.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include <stm32f4xx.h>
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\main.c: 0 warnings, 1 error
+compiling stm32f4xx_it.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include <stm32f4xx.h>
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\stm32f4xx_it.c: 0 warnings, 1 error
+compiling system_stm32f4xx.c...
+..\src\system_stm32f4xx.c(125): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\system_stm32f4xx.c:   #include "stm32f4xx.h"
+..\src\system_stm32f4xx.c:                         ^
+..\src\system_stm32f4xx.c: ..\src\system_stm32f4xx.c: 0 warnings, 1 error
+compiling usb_bsp.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usb_bsp.c: 0 warnings, 1 error
+compiling usbh_usr.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usbh_usr.c: 0 warnings, 1 error
+compiling waveplayer.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include <stm32f4xx.h>
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waveplayer.c: 0 warnings, 1 error
+compiling waverecorder.c...
+..\inc\main.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include <stm32f4xx.h>
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waverecorder.c: 0 warnings, 1 error
+compiling stm32f4_discovery.c...
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h(32): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:    #include "stm32f4xx.h"
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:                          ^
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.c: 0 warnings, 1 error
+compiling stm32f4_discovery_lis302dl.c...
+stm32f4_discovery_lis302dl.c: Error:  #5: cannot open source input file "..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c": No such file or directory
+stm32f4_discovery_lis302dl.c: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c: 0 warnings, 1 error
+Target not created
+Build target 'MEDIA_USB_KEY'
+compiling audio_sample.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\audio_sample.c: 0 warnings, 1 error
+compiling main.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\main.c: 0 warnings, 1 error
+compiling stm32f4xx_it.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\stm32f4xx_it.c: 0 warnings, 1 error
+compiling system_stm32f4xx.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\system_stm32f4xx.c: 0 warnings, 1 error
+compiling usb_bsp.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\usb_bsp.c: 0 warnings, 1 error
+compiling usbh_usr.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\usbh_usr.c: 0 warnings, 1 error
+compiling waveplayer.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\waveplayer.c: 0 warnings, 1 error
+compiling waverecorder.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\waverecorder.c: 0 warnings, 1 error
+compiling stm32f4_discovery.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.c: 0 warnings, 1 error
+compiling stm32f4_discovery_lis302dl.c...
+stm32f4_discovery_lis302dl.c: Error:  #5: cannot open source input file "..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c": No such file or directory
+stm32f4_discovery_lis302dl.c: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c: 0 warnings, 1 error
+Target not created
+Build target 'MEDIA_USB_KEY'
+compiling audio_sample.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\audio_sample.c: 0 warnings, 1 error
+compiling main.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\main.c: 0 warnings, 1 error
+compiling stm32f4xx_it.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\stm32f4xx_it.c: 0 warnings, 1 error
+compiling system_stm32f4xx.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\system_stm32f4xx.c: 0 warnings, 1 error
+compiling usb_bsp.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\usb_bsp.c: 0 warnings, 1 error
+compiling usbh_usr.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\usbh_usr.c: 0 warnings, 1 error
+compiling waveplayer.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\waveplayer.c: 0 warnings, 1 error
+compiling waverecorder.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\src\waverecorder.c: 0 warnings, 1 error
+compiling stm32f4_discovery.c...
+..\..\..\Project\stm32f4xx.h(246): error:  #5: cannot open source input file "system_stm32f4xx.h": No such file or directory
+..\..\..\Project\stm32f4xx.h:   #include "system_stm32f4xx.h"
+..\..\..\Project\stm32f4xx.h:                                ^
+..\..\..\Project\stm32f4xx.h: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.c: 0 warnings, 1 error
+compiling stm32f4_discovery_lis302dl.c...
+stm32f4_discovery_lis302dl.c: Error:  #5: cannot open source input file "..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c": No such file or directory
+stm32f4_discovery_lis302dl.c: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c: 0 warnings, 1 error
+Target not created
+Build target 'MEDIA_USB_KEY'
+compiling audio_sample.c...
+..\src\audio_sample.c(22): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\audio_sample.c:   #include "stm32f4xx.h"
+..\src\audio_sample.c:                         ^
+..\src\audio_sample.c: ..\src\audio_sample.c: 0 warnings, 1 error
+compiling main.c...
+..\inc\main.h(28): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\main.c: 0 warnings, 1 error
+compiling stm32f4xx_it.c...
+..\inc\main.h(28): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\stm32f4xx_it.c: 0 warnings, 1 error
+compiling system_stm32f4xx.c...
+..\src\system_stm32f4xx.c(125): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\system_stm32f4xx.c:   #include "stm32f4xx.h"
+..\src\system_stm32f4xx.c:                         ^
+..\src\system_stm32f4xx.c: ..\src\system_stm32f4xx.c: 0 warnings, 1 error
+compiling usb_bsp.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usb_bsp.c: 0 warnings, 1 error
+compiling usbh_usr.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usbh_usr.c: 0 warnings, 1 error
+compiling waveplayer.c...
+..\inc\main.h(28): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waveplayer.c: 0 warnings, 1 error
+compiling waverecorder.c...
+..\inc\main.h(28): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waverecorder.c: 0 warnings, 1 error
+compiling stm32f4_discovery.c...
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h(32): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:    #include "stm32f4xx.h"
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:                          ^
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.c: 0 warnings, 1 error
+compiling stm32f4_discovery_lis302dl.c...
+stm32f4_discovery_lis302dl.c: Error:  #5: cannot open source input file "..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c": No such file or directory
+stm32f4_discovery_lis302dl.c: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c: 0 warnings, 1 error
+Target not created
+Clean started: Project: 'Audio_playback_and_record'
+   deleting intermediate output files for target 'MEDIA_intFALSH'
+   deleting intermediate output files for target 'MEDIA_USB_KEY'
+Build target 'MEDIA_USB_KEY'
+compiling audio_sample.c...
+..\src\audio_sample.c(22): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\audio_sample.c:   #include "stm32f4xx.h"
+..\src\audio_sample.c:                         ^
+..\src\audio_sample.c: ..\src\audio_sample.c: 0 warnings, 1 error
+compiling main.c...
+..\inc\main.h(28): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\main.c: 0 warnings, 1 error
+compiling stm32f4xx_it.c...
+..\inc\main.h(28): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\stm32f4xx_it.c: 0 warnings, 1 error
+compiling system_stm32f4xx.c...
+..\src\system_stm32f4xx.c(125): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\src\system_stm32f4xx.c:   #include "stm32f4xx.h"
+..\src\system_stm32f4xx.c:                         ^
+..\src\system_stm32f4xx.c: ..\src\system_stm32f4xx.c: 0 warnings, 1 error
+compiling usb_bsp.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usb_bsp.c: 0 warnings, 1 error
+compiling usbh_usr.c...
+..\inc\usb_conf.h(27): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\usb_conf.h:   #include "stm32f4xx.h"
+..\inc\usb_conf.h:                         ^
+..\inc\usb_conf.h: ..\src\usbh_usr.c: 0 warnings, 1 error
+compiling waveplayer.c...
+..\inc\main.h(28): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waveplayer.c: 0 warnings, 1 error
+compiling waverecorder.c...
+..\inc\main.h(28): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\inc\main.h:   #include "stm32f4xx.h"
+..\inc\main.h:                         ^
+..\inc\main.h: ..\src\waverecorder.c: 0 warnings, 1 error
+compiling stm32f4_discovery.c...
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h(32): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:    #include "stm32f4xx.h"
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h:                          ^
+..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.c: 0 warnings, 1 error
+compiling stm32f4_discovery_lis302dl.c...
+stm32f4_discovery_lis302dl.c: Error:  #5: cannot open source input file "..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c": No such file or directory
+stm32f4_discovery_lis302dl.c: ..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.c: 0 warnings, 1 error
+Target not created

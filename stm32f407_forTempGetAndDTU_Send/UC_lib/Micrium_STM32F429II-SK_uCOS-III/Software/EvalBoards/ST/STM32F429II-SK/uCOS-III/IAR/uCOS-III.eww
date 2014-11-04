@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\..\..\..\..\Work_Space\IAR_Project\f407base\ST_libs\Project\base.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\..\..\Micrium_STM3240G-Eval_OS3-FS-LIB_UCFS\Micrium\Examples\ST\STM3240G-Eval\OS3-FS\IAR-No-Source\OS3-FS-No-Source.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\uCOS-III.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+
